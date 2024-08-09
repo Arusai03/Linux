@@ -1,0 +1,141 @@
+1  sudo ufw status   https://blog.dineshcloud.in/  https://venketraman.com/how-to-configure-multisite-in-nginx-on-ubuntu-18
+    5  sudo ufw allow ssh
+    6  sudo ufw allow 'Nginx Full'
+    7  sudo ufw enable
+    8  sudo ufw status
+    9  sudo systemctl stop nginx
+   10  sudo systemctl start nginx
+11 sudo systemctl restart nginx
+sudo systemctl status nginx
+sudo systemctl enable nginx
+   11  ls
+ls -lrp list dire with details
+   12  cd /var/www/html  cd change directory
+   13  ls
+   14  pwd
+   15  echo "helloworld"
+   16  touch index.html
+   17  sudo touch index.html
+   18  sudo echo "Helloworld" > index.html
+   19  sudo vi index.html
+      21  sudo rm index.html
+
+
+https://arunjai.hashnode.dev/linux-basic-command
+
+sudo ufw status -checks the Firewall rules (UFW) 
+
+sudo ufw allow ssh- Enable the secure remote access via ssh
+
+sudo ufw allow 'Nginx Full'- generally http and https (80 *443) allow the traffice
+
+sudo ufw enable - Enables the UFW firewall
+
+sudo ufw status - check the firewall status
+
+sudo systemctl stop nginx - Stops the Nginx web server
+
+sudo systemctl start nginx - Starts the Nginx web server
+
+sudo systemctl restart nginx - Restarts the Nginx web server
+
+sudo systemctl status nginx- Checks the current status of the Nginx service
+
+sudo systemctl enable nginx -Nginx to start automatically when the system boots up
+
+ls - Lists the files and directories currendt dir
+
+ls -lrp - Lists files and directories in long format, showing details such as permissions, ownership
+
+cd /var/www/html - change the dir web files for stored this location
+
+pwd - Prints the current working directory 
+
+echo "helloworld" - terminal output
+
+sudo touch index.html - create the empty file html format
+
+sudo vi index.html - Editer text file change the content
+
+
+sudo rm index.html - remove the files fromt the pwd
+
+
+ssh -i "shivam.pem" ubuntu@ec2-13-233-132-109.ap-south-1.compute.amazonaws.com
+
+13.233.132.109
+13.233.142.51
+
+https://meet.google.com/rjh-inmc-qed
+
+https://meet.google.com/rjh-inmc-qed
+13.126.202.124
+
+How to configure Multisite in Nginx on Ubuntu 18:  ,  https://venketraman.com/how-to-configure-multisite-in-nginx-on-ubuntu-18
+   1  whoami
+    2  sudo apt-get update -y
+    3  sudo apt install nginx
+    4  sudo service nginx start
+    5  sudo ufw allow 'nginx Full'
+    6  sudo service nginx restart
+    7  sudo service nginx status
+       sudo service nginx enable
+   10  sudo mkdir -p /var/www/html/dinish
+   13  cd /var/www/html
+   15  vi index.html
+   16  sudo vi index.html
+   17  cat index.html
+    20  sudo chown -R $USER:$USER /var/www/html/dinish
+   21  sudo vi /etc/nginx/sites-available/web1.conf
+   22  clear
+   23  sudo ln -s /etc/nginx/sites-available/web1.conf /etc/nginx/sites-enabled/
+   24  sudo chmod -R 755 /var/www/html/
+   25  sudo nginx -t
+   31  cd dinish
+   33  cp /var/www/html/index.html .
+   42  sudo nginx -t
+   43  cd /etc/nginx/sites-enabled/
+   45  sudo rm -r web1.conf
+   50  cd sites-enabled/
+   51  ls
+   52  cd ..
+   53  sites-available/
+   54  cd sites-available
+   55  ls
+   56  nano web1.conf
+   57  cd
+   58  sudo ln -s /etc/nginx/sites-available/web1.conf /etc/nginx/sites-enabled/
+   59  sudo chmod -R 755 /var/www/html/
+   60  sudo nginx -t
+   61  cd /etc/nginx/sites-enabled
+   62  ls
+   63  sudo nano web1.conf
+   64  sudo systemctl restart nginx
+   65  sudo ln -s /etc/nginx/sites-available/web1.conf /etc/nginx/sites-enabled/
+   66  cd
+   67  sudo ln -s /etc/nginx/sites-ava                       ilable/web1.conf /etc/nginx/sites-enabled/
+   68  cd /etc/nginx/sites-enabled/
+   69  ls
+   70  sudo rm -r web1.conf
+   71  ls
+   72  cd
+   73  sudo ln -s /etc/nginx/sites-available/web1.conf /etc/nginx/sites-enabled/
+   74  sudo chmod -R 755 /var/www/html/
+   75  sudo nginx -t
+   76  cd /etc/nginx/
+   77  ls
+   78  cd sites-available/
+   79  ls
+   80  cd
+   81  sudo systemctl status nginx
+   82  ls
+   83  history
+
+
+
+
+
+
+
+
+
