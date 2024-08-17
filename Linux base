@@ -133,6 +133,146 @@ How to configure Multisite in Nginx on Ubuntu 18:  ,  https://venketraman.com/ho
    82  ls
    83  history
 
+17 aug 24
+
+    1.clear
+    2  whoami
+    3  pwd
+    4  sudo ufe status
+    5  sufo systemctl nginx status
+    6  sufo systemctl status nginx
+    7  sudo systemctl status nginx
+    8  sudo apt-get install nginx -y
+    9  sudo systemctl enable nginx
+   10  sudo systemctl status nginx
+   11  "Cd"
+   12  cd~
+   13  cd ..
+   14  ls
+   15  touch index.html
+   16  sudo touch index.html
+   17  vi index.html
+   18  clear
+   19  sudo sytemctl status nginx
+   20  sudo systemctl start nginx
+   21  sudo systemctl status nginx
+   22  sudo ufw allow "Nginx Full'
+   23  sudo ufw allow 'Nginx Full'
+   24  sudo ufw allow status
+   25  sudo ufw enable
+   26  udo ufw allow ssh
+   27  sudo ufw allow ssh
+   28  sudo systemctl enable nginx
+   29  cler
+   30  clear
+   31  cd /var/www/html
+   32  sudo index.html
+   33  sudo touch index.html
+   34  vi index.html
+   35  sudo vi /etc/nginx/sites-enabled/web2.conf
+   36  sudo systemctrl restart nginx
+   37  sudo systemctl restart nginx
+   38  sudo service  restart nginx
+   39  sudo service restart nginx
+   40  sudo systemctrl status nginx
+   41  sudo systemctl status nginx
+   42  sudo systemctl enable nginx
+   43  sudo nginx -t
+   44  sudo vi /etc/nginx/sites-enabled/web2.conf
+   45  cat  /etc/nginx/sites-enabled/web2.conf
+   46  sudo systemctl reload nginx
+   47  sudo apt-get install nginx
+   48  sudo service  restart nginx
+   49  sudo nginx -t
+   50  sudo vi /etc/nginx/sites-enabled/web2.conf
+   51  sudo service  restart nginx
+   52  sudo service nginx enable
+   53  sudo nginx -t
+   54  clear
+   55  history
+   56  cd sudo mkdir -p /var/www/html/web1
+   57  cd /var/www/html/web1
+   58  ls
+   59* cd
+   60  cd web2
+   61  ls
+   62  cat index.html
+   63  cd ..
+   64  cat web1.conf
+   65  cd web1
+   66  ls
+   67  cat index.html
+   68  sudo chown -R $USER:$USER /var/www/html/web1
+   69  sudo chown -R $USER:$USER /var/www/html/web2
+   70  clear
+   71  cd /etc/nginx/sites-available
+   72  ls
+   73  cat web1.conf
+   74  cat web2.conf
+   75  sudo ln -s /etc/nginx/sites-available/web1.conf /etc/nginx/sites-enabled/
+   76  sudo ln -s /etc/nginx/sites-available/web2.conf /etc/nginx/sites-enabled/
+   77  sudo chmod -R 755 /var/www/html/
+   78  sudo nginx -t
+   79*
+   80  sudo ln -s /etc/nginx/sites-available/web2.conf /etc/nginx/sites-enabled/
+   81  cd /etc/nginx/sites-enabled/
+   82  ls
+   83  sudo rm -f web1.conf
+   84  sudo rm -f web2.conf
+   85  ls
+   86  sudo ln -s /etc/nginx/sites-available/web1.conf /etc/nginx/sites-enabled/
+   87  sudo ln -s /etc/nginx/sites-available/web2.conf /etc/nginx/sites-enabled/
+   88  sudo chmod -R 755 /var/www/html/
+   89  sudo nginx -t
+   90  cat web1.conf
+   91* sudo
+   92  sudo rm -f /etc/nginx/sites-enabled/
+   93  sudo rm -f /etc/nginx/sites-available
+   94  sudo rm -f /etc/nginx/sites-enabled/
+   95  cd /sites-enabled/
+   96  cd sites-enabled/
+   97  ls
+   98  sudo rm -f web1.conf web2.conf
+   99  ls
+  100  cd ..
+  101  cd sitesavailable
+  102  cd sites-available
+  103  ls
+  104  sudo rm -f web1.conf web2.conf
+  105  ls
+  106  cd ..
+  107  cd
+  108  cd /var/www/html
+  109  ls
+  110  sudo rm -f web1 web2
+  111  sudo rm -r web1 web2
+  112  cd.
+  113  cd ..
+  114  cd
+  115  clear
+  116  sudo systemctl nginx status
+  117  sudo systemctl status nginx
+  118  sudo systemctl start nginx
+  119  sudo systemctl restart nginx
+  120  sudo systemctl enable nginx
+  121  sudo systemctl status nginx
+  122  sudo mkdir -p /var/www/html/web1
+  123  sudo mkdir -p /var/www/html/web2
+  124  sudo chown -R $USER:$USER /var/www/html/web1
+  125  sudo chown -R $USER:$USER /var/www/html/web2
+  126  sudo  vi /var/www/html/web1/index.html
+  127  sudo  vi /var/www/html/web2/index.html
+  128  sudo chown -R $USER:$USER /var/www/html/web1
+  129  sudo chown -R $USER:$USER /var/www/html/web2
+  130  sudo vi /etc/nginx/sites-available/web1.conf
+  131  sudo vi /etc/nginx/sites-available/web2.conf
+  132  sudo vi /etc/nginx/sites-available/web1.conf
+  133  sudo ln -s /etc/nginx/sites-available/web1.conf /etc/nginx/sites-enabled/
+  134  sudo ln -s /etc/nginx/sites-available/web2.conf /etc/nginx/sites-enabled/
+  135  sudo chmod -R 755 /var/www/html/
+  136  sudo nginx -t
+  137  history
+
 
 
 
